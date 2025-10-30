@@ -5,15 +5,15 @@ header {
   align-items: center;
   padding: 1em;
 }
-.logo {
+#logo {
     display: flex;
   align-items: center;
 }
-.logo figure {
+#logo figure {
   margin: 0;
 }
 
-.logo h1 {
+#logo h1 {
   font-size: 2em;
   margin-left: 0.5em;
 }
