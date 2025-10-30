@@ -39,7 +39,7 @@ hr {
     background-color: red;
     margin: 2em 0;
 }
-.article image {
+#article image {
     width: 100%;
     height: auto;
 }
