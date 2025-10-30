@@ -5,12 +5,34 @@ header {
   align-items: center;
   padding: 1em;
 }
+.logo {
+    display: flex;
+  align-items: center;
+}
+.logo figure {
+  margin: 0;
+}
+
+.logo h1 {
+  font-size: 2em;
+  margin-left: 0.5em;
+}
+nav {
+  margin-left: auto; 
+}
+
+nav a {
+  list-style-type: none;
+  display: inline;
+  margin-right: 2em;
+  text-decoration: none;
+  color: #333;
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: rgb(212, 212, 235);
+}
 hr {
     background-color: red;
-}
-.section img {
-    border-radius: 10px;
-}
-.section figcaption {
-    color: gray;
 }
