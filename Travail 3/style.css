@@ -1,4 +1,4 @@
-.nav a {
+.header nav a {
     list-style-type: none;
     display: inline;
     margin-right: 2em;
@@ -9,8 +9,13 @@
     padding: 0 8px; 
     position: relative;
 }
-.nav a:hover {
+.header nav a:hover {
     color: rgb(212,212,235);
+}
+.header div {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 hr {
     color: red;
