@@ -10,6 +10,7 @@ header {
   align-items: center;
 }
 #logo figure img {
+    width: 50px;
   margin: 0;
 }
 
