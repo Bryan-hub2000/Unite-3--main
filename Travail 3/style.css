@@ -41,9 +41,7 @@ hr {
 }
 
 #deuxieme figure img {
-  width: 100%;
-  height: 16cm;
-  border-radius: 1em;
+  border-radius: 30%;
 }
 
 #deuxieme:hover {
