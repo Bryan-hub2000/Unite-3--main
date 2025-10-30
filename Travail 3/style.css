@@ -1,30 +1,12 @@
-.header nav a {
-    list-style-type: none;
-    display: inline;
-    margin-right: 2em;
-    text-decoration: none;
-    color: #333;
-    font-size: 25px;
-    margin-left: 100em;
-    padding: 0 8px; 
-    position: relative;
-}
-.header nav a:hover {
-    color: rgb(212,212,235);
-}
-.header div image {
+.header {
      display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    border-radius: 15px;
-    margin: 0 auto;
-    padding: 3.8%;
-    width: 80%;
-    gap: 1em;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
 }
 hr {
-    color: red;
+    background-color: red;
 }
 .section img {
     border-radius: 10px;
