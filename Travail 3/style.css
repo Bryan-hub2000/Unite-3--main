@@ -66,6 +66,7 @@ hr {
 
 #deuxieme figcaption:hover {
   opacity: 0.33;
+  transition: 500ms ease-in-out;
 }
 
 
