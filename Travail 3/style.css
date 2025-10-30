@@ -39,9 +39,12 @@ hr {
     background-color: red;
     margin: 2em 0;
 }
-#article image {
-    width: 100%;
-    height: auto;
+image.toronto-petit{
+     width: 900px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 #deuxieme figure img {
   width: 100%;
