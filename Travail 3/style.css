@@ -6,7 +6,19 @@
     color: #333;
     font-size: 25px;
     margin-left: 100em;
+    padding: 0 8px; 
+    position: relative;
 }
 .nav a:hover {
     color: rgb(212,212,235);
+}
+.nav {
+    padding: 10px; 
+   text-align: center;
+}
+
+.nav a::after {
+    content: " ";
+    margin-left: 20px;
+    
 }
