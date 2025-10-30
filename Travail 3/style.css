@@ -1,0 +1,12 @@
+.nav a {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2em;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+    margin-left: 100em;
+}
+.nav a:hover {
+    color: rgb(212,212,235);
+}
