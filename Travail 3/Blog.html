@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Blog</title>
+  <meta charset="UTF-8">
+  <title>Blog Canada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #003366;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    main {
+      padding: 2em;
+    }
+
+    section {
+      margin-bottom: 3em;
+    }
+
+    .card {
+      background: white;
+      padding: 1em;
+      margin-bottom: 1em;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    article img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1em;
+    }
+
+    .contact {
+      background: white;
+      padding: 2em;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <header>
+    <h1>Bienvenue sur mon blog canadien</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#ottawa">Ottawa</a>
+      <a href="#toronto">Toronto</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Accueil -->
+    <section id="accueil">
+      <h2>Derniers articles</h2>
+      <div class="card">
+        <img src="images/Ottawa (affiche ).jpg" alt="Ottawa">
+        <h3><a href="#ottawa">Découverte d'Ottawa</a></h3>
+        <p>Explore la capitale du Canada, entre nature, culture et histoire.</p>
+      </div>
+      <div class="card">
+        <img src="images/Toronto (Vue en haut ).jpg" alt="Toronto">
+        <h3><a href="#toronto">Toronto, ville cosmopolite</a></h3>
+        <p>Plonge dans l'énergie urbaine de la plus grande ville du pays.</p>
+      </div>
+    </section>
+
+    <!-- Ottawa -->
+    <section id="ottawa">
+      <h2>Ottawa, capitale paisible</h2>
+      <article>
+        <img src="images/Ottawa (parlement).jpg" alt="Vue d'Ottawa">
+        <p>Ottawa est la capitale du Canada, connue pour ses musées, ses parcs et son atmosphère tranquille. Avec plus de 880 parcs et deux universités prestigieuses, elle offre une qualité de vie exceptionnelle.</p>
+      </article>
+    </section>
+
+    <!-- Toronto -->
+    <section id="toronto">
+      <h2>Toronto, ville dynamique</h2>
+      <article>
+        <img src="images/Toronto (affiche).jpg" alt="Toronto skyline">
+        <p>Toronto est la plus grande ville du Canada. Cosmopolite, moderne et vibrante, elle est le cœur économique du pays. Sa célèbre tour CN domine le paysage urbain.</p>
+      </article>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Contactez-moi</h2>
+      <p>Email : blogcanada@exemple.ca</p>
+      <p>Téléphone : +1 613-555-1234</p>
+      <p>Adresse : 123 Rue Imaginaire, Ottawa, ON, Canada</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blog Canada</p>
+  </footer>
+
 </body>
-</html>
+</htm
