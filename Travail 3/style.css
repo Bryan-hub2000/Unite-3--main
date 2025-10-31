@@ -65,7 +65,7 @@ hr {
   font-size: 24px;
 }
 
-.section {
+section {
   flex-direction: row;
   display: flex;
   margin-bottom: 20px;
