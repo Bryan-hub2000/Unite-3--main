@@ -200,3 +200,17 @@ footer li::marker {
 #blog {
   background: #9d4ec2;
 }
+
+.drapeau_Blog {
+    display: flex;
+  align-items: center;
+}
+.drapeau_Blog figure img {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.drapeau_Blog h1 {
+  font-size: 2em;
+  margin-left: 0.5em;
+}
