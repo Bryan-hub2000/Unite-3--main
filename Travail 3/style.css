@@ -65,51 +65,6 @@ hr {
   font-size: 24px;
 }
 
-.article {
-  flex: 2;
-  width: 65%;
-  background: rgb(240, 240, 247);
-  padding: 1.5em;
-}
-
-.T1::first-letter {
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.T1 {
-  font-size: 20px;
-  text-indent: 0.8cm;
-}
-
-.aside {
-  float: right;
-  flex: 1;
-  width: 25%;
-  background: black;
-  color: white;
-  padding: 1.5em;
-  margin-left: 0.5em;
-  margin-right: 2.3em;
-  border-radius: 1em;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-#photo_trump {
-  padding: 0 3em 2em 2em;
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  background-color: #ddd;
-  padding: 2em;
-}
-
-footer ul {
-  list-style-type: disc;
-}
-
-footer li::marker {
-  color: blue;
+section {
+  display: inline-block;
 }
