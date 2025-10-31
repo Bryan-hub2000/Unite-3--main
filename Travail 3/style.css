@@ -197,3 +197,6 @@ footer li::marker {
   border: 3px solid #ccc;
 }
 
+#blog {
+  background: #9d4ec2;
+}
