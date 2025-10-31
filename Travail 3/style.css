@@ -159,4 +159,41 @@ footer li::marker {
   line-height: 1em;
 }
 
+#equipe {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#equipe h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  color: #003366;
+}
+
+.membres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.membre {
+  background-color: #f9f9f9;
+  padding: 1.5em;
+  border-radius: 1em;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.membre img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  border: 3px solid #ccc;
+}
 
