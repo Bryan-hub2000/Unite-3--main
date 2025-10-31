@@ -65,10 +65,9 @@ hr {
   font-size: 24px;
 }
 
-#contenu img {
+.section {
   flex-direction: row;
   display: flex;
   margin-bottom: 20px;
 }
-
 
