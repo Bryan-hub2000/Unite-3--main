@@ -64,12 +64,8 @@ hr {
   border-bottom-right-radius: 1em;
   font-size: 24px;
 }
-.contenu {
-  display: flex;
-  margin-bottom: 20px;
-}
 
-article {
+.article {
   flex: 2;
   width: 65%;
   background: rgb(240, 240, 247);
@@ -86,7 +82,7 @@ article {
   text-indent: 0.8cm;
 }
 
-aside {
+.aside {
   float: right;
   flex: 1;
   width: 25%;
