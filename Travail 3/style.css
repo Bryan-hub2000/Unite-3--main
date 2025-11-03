@@ -42,6 +42,13 @@ hr {
     margin: 2em 0;
 }
 
+#toronto {
+  background-color: #f0f0f7;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: rgba(202, 187, 187, 0.35) 0px 5px 15px;
+  margin: 2em;
+}
 #deuxieme img {
   width: 180px;
   height: 180px;
