@@ -58,6 +58,7 @@ hr {
 #deuxieme figcaption:hover {
   opacity: 0.33;
   transition: 500ms ease-in-out;
+  margin: auto;
 }
 #deuxieme figcaption {
   text-shadow: 10px 10px 0px black;
