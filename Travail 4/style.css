@@ -242,9 +242,6 @@ figcaption {
     font-size: 0.625em;
   }
 
-
-
-
   .Mes_images {
     position: relative;
     margin-top: 2em;
@@ -283,6 +280,6 @@ figcaption {
     color: white;
     border-radius: 0.95em;
     background-color: rgb(125, 125, 216);
-    text-align: center
+    text-align: left
   }
 }
