@@ -40,3 +40,10 @@ p {
 .tags a:last-child::after {
   content: "";
 }
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    margin-top: 2em;
+}

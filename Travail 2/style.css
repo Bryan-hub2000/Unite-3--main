@@ -63,3 +63,10 @@ body {
 .génie p:hover {
     transform: scale(1.1);
 }
+
+footer {
+    text-align: center;
+    background-color: aqua;
+    padding: 1em;
+    margin-top: 2em;
+}
